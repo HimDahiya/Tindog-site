@@ -1,0 +1,143 @@
+#title{
+  background-color: #ff4c68;
+}
+body{
+    font-family: 'Montserrat Light', sans-serif;
+    
+}
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+
+  font-size: 3.5em;
+  line-height: 1.5;
+  color: white;
+}
+h2{
+  color: black;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3{
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: black;
+}
+
+.container-fluid{
+  padding: 3% 15% 12%;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 2.4rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+/* download buttons */
+.download-buttons{
+  margin: 5% 3% 5% 3%;
+}
+
+/* title phone image */
+.title-image{
+width: 60%;
+transform: rotate(20deg);
+position: absolute;
+right: 20%
+}
+
+/* features */
+#features{
+  padding: 7% 15% ;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 4%;
+}
+.icons{
+  color: #ef8172 ;
+  font-size: 3.25rem;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+}
+.dog-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-text{
+color:#fff;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 10%;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+/* cta */
+#cta{
+  background-color: #ff4c68;
+  font-family: 'Montserrat';
+  padding: 7% 15%;
+  text-align: center;
+}
+/* footer */
+#footer{
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 3%;
+  background-color: #fff;
+}
+  .social-icons{
+    padding: 3%
+
+}
